@@ -1,3 +1,5 @@
+var theme = new Audio("assets/audio/theme.mp3");
+theme.play();
 var correct = 0;
 var incorrect = 0;
 var timedOut = 0;
