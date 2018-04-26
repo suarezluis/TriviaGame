@@ -1,0 +1,119 @@
+@font-face {
+  font-family: pulpFiction;
+  src: url("../fonts/unicode.aachenb.ttf");
+}
+
+body {
+  margin: 0;
+  background: #fc5125;
+}
+.uma {
+  margin: 0 auto;
+  background-image: url("../images/uma.jpg");
+  background-size: cover;
+  width: 1280px;
+  height: 800px;
+}
+.logo {
+  display: inline-block;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  margin: 10px 20px;
+  width: 785px;
+  height: 175px;
+}
+
+.welcome {
+  margin-left: 450px;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #f7c00b;
+  text-shadow: black -3px 3px;
+}
+
+.startButton {
+  margin-left: 700px;
+  margin-top: 50px;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #fc5125;
+  background-color: #f7c00b;
+  text-shadow: black -3px 3px;
+  box-shadow: black -3px 3px;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.startButton:hover {
+  color: #f7c00b;
+  background-color: black;
+  cursor: pointer;
+  text-shadow: #fc5125 -3px 3px;
+  box-shadow: #f7c00b -3px 3px;
+}
+
+.question {
+  font-family: pulpFiction;
+  font-size: 25px;
+  margin-left: 450px;
+  text-shadow: #f7c00b -2px 1px;
+}
+
+.option {
+  background-color: rgba(247, 192, 11, 0.75);
+  box-shadow: black -3px 3px;
+  font-family: pulpFiction;
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 450px;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.option:hover {
+  cursor: pointer;
+}
+
+.message {
+  margin-left: 510px;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #f7c00b;
+  text-shadow: black -3px 3px;
+}
+
+#gif {
+  margin-left: 510px;
+  border-radius: 25px;
+}
+
+.correct {
+  margin-left: 510px;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #f7c00b;
+  text-shadow: black -3px 3px;
+}
+
+
+
+.time {
+  position: relative;
+  top: 400px;
+  left: -120px;
+  text-align: center;
+  display: inline-block;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #f7c00b;
+  border: solid #f7c00b 2px;
+  border-radius: 25px;
+  text-shadow: black -3px 3px;
+  padding: 10px;
+  box-shadow: black -3px 3px;
+  margin: -100px 90px 0 0;
+}
