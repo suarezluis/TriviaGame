@@ -4,8 +4,10 @@
 }
 
 body {
-  margin: 0;
-  background: #fc5125;
+  text-align: center;
+  background: url("../images/uma.jpg")
+    no-repeat center fixed;
+  background-size: cover;
 }
 .uma {
   margin: 0 auto;
@@ -15,16 +17,17 @@ body {
   height: 800px;
 }
 .logo {
-  display: inline-block;
+  
   background-image: url("../images/logo.png");
   background-size: cover;
-  margin: 10px 20px;
+  margin: 10px auto;
   width: 785px;
   height: 175px;
 }
 
 .welcome {
-  margin-left: 450px;
+  
+  
   font-family: pulpFiction;
   font-size: 40px;
   color: #f7c00b;
@@ -32,8 +35,7 @@ body {
 }
 
 .startButton {
-  margin-left: 700px;
-  margin-top: 50px;
+  margin: 10px auto;
   font-family: pulpFiction;
   font-size: 40px;
   color: #fc5125;
@@ -58,20 +60,24 @@ body {
 .question {
   font-family: pulpFiction;
   font-size: 25px;
-  margin-left: 450px;
+  
   text-shadow: #f7c00b -2px 1px;
 }
 
+
+
 .option {
+  
   background-color: rgba(247, 192, 11, 0.75);
   box-shadow: black -3px 3px;
   font-family: pulpFiction;
   font-size: 25px;
   margin-top: 5px;
-  margin-left: 450px;
+  text-align: left;
   width: fit-content;
   padding: 5px;
   border-radius: 10px;
+  margin-left: 35%;
 }
 
 .option:hover {
@@ -79,7 +85,7 @@ body {
 }
 
 .message {
-  margin-left: 510px;
+  
   font-family: pulpFiction;
   font-size: 40px;
   color: #f7c00b;
@@ -87,12 +93,12 @@ body {
 }
 
 #gif {
-  margin-left: 510px;
+  max-height: 160px;
   border-radius: 25px;
 }
 
 .correct {
-  margin-left: 510px;
+  
   font-family: pulpFiction;
   font-size: 40px;
   color: #f7c00b;
@@ -102,9 +108,7 @@ body {
 
 
 .time {
-  position: relative;
-  top: 400px;
-  left: -120px;
+  margin-top: 10px;
   text-align: center;
   display: inline-block;
   font-family: pulpFiction;
@@ -115,7 +119,7 @@ body {
   text-shadow: black -3px 3px;
   padding: 10px;
   box-shadow: black -3px 3px;
-  margin: -100px 90px 0 0;
+  
 }
 
 .restartButton {

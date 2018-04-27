@@ -6,7 +6,7 @@ var timedOut = 0;
 var time = 20;
 var start = false;
 var currentQuestion = 1;
-var timeResult = 50;
+var timeResult = 5000;
 var timing = setInterval(timer, 1000);
 // Declare questions in an array
 var questions = [
@@ -150,6 +150,7 @@ function showResultsArea() {
   $(".options").css("display", "none");
   $(".time").css("display", "none");
   $(".results").css("display", "unset");
+  $("#gif").css("display", "unset");
 }
 //Populate the current question
 function populateQuestion(number) {
