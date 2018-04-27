@@ -117,3 +117,26 @@ body {
   box-shadow: black -3px 3px;
   margin: -100px 90px 0 0;
 }
+
+.restartButton {
+  margin:auto;
+  font-family: pulpFiction;
+  font-size: 40px;
+  color: #fc5125;
+  background-color: #f7c00b;
+  text-shadow: black -3px 3px;
+  box-shadow: black -3px 3px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+
+.restartButton:hover {
+  color: #f7c00b;
+  background-color: black;
+  cursor: pointer;
+  text-shadow: #fc5125 -3px 3px;
+  box-shadow: #f7c00b -3px 3px;
+}
