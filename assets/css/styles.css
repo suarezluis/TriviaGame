@@ -4,6 +4,7 @@
 }
 
 body {
+  background-color: #fc5125;
   text-align: center;
   background: url("../images/uma.jpg")
     no-repeat center fixed;
